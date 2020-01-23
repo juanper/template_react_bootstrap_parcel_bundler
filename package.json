@@ -1,0 +1,24 @@
+{
+  "name": "template_react_bootstrap_parcel_bundler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/juanper/template_react_bootstrap_parcel_bundler.git",
+  "author": "Juan José Pereira <juanper@uol.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html -d dev --open",
+    "build": "NODE_ENV=production parcel build src/* --no-content-hash --public-url ./ --no-source-maps"
+  }
+}
