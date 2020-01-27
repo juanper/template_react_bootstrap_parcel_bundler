@@ -8,7 +8,7 @@ yarn >= 1.21.1
 # Para iniciar o projeto
 yarn init -y
 yarn add --dev parcel-bundler babel-preset-env babel-preset-react
-yarn add react react-dom bootstrap
+yarn add react react-dom jquery popper.js bootstrap
 
 # Para inicializar o projeto
 yarn install
